@@ -13,4 +13,6 @@ class AccountController {
     fun getAccountInfos(@PathVariable("id") id: String) : String {
         return id
     }
+
+    fun test() {}
 }
