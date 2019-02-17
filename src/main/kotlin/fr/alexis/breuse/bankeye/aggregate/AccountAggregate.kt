@@ -11,6 +11,7 @@ class AccountAggregate() {
     var favorite: Boolean = true;
 
     var abcd = 0
+    var acc = 0
 
     fun on(event: ExpenseAdded) {
         balance -= event.amount
