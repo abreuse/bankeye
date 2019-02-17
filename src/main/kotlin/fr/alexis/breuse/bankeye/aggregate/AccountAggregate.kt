@@ -8,6 +8,8 @@ class AccountAggregate() {
 
     var balance: Int = 0
 
+    var favorite: Boolean = true;
+
     fun on(event: ExpenseAdded) {
         balance -= event.amount
     }
